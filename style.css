@@ -13,6 +13,7 @@
 .input{
     text-align: center;
 }
+
 .operador{
     text-align: center;
 }
@@ -35,4 +36,13 @@ button{
     border-bottom: 2px solid black;
     width: 300px;
     margin-left: 610px;
+}
+
+.resultado{
+
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
 }

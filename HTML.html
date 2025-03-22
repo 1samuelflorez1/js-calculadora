@@ -1,34 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>calculadotra</title>
+    <title>Calculadora</title>
 </head>
 <body>
     <div class="todo">
-        <h1>Calculadora JavaScrirpt</h1>
+        <h1>Calculadora HTML</h1>
 
-        <div class="input">
-            <input type="text" placeholder="Operador 1">
-        </div>
-        <br>
-        <div class="operador">
-            <input type="text" placeholder="+, -, *, /">
-        </div>
-        <br>
-        <div class="input">
-            <input type="text" placeholder="Operador 2">
-        </div>
+        <div class="input"><input type="text" id="operador1" placeholder="Operador 1"></div>
+        <div class="input"><input type="text" id="operadores" placeholder="+,-,*,/"></div>
+        <div class="input"><input type="text" id="operador2" placeholder="Operador 2"></div>
 
-        <button>Calcular</button>
+        <button id="calcular">Calcular...</button>
 
-        <div class="linea"></div>
-
-        <div class="resultado"></div>
-
+        <div class="resultado" id="resultado"></div>
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
