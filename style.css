@@ -1,48 +1,103 @@
-.todo{
+body{
 
+    background-color: #4f3625;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.todo{
     display: flex;
     flex-direction: column;
-
+    margin-top: 100px;
     h1{
         text-align: center;
+        color: #c88e67;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 0 0 20px rgba(199,140, 101, 1);
     }  
-
-
 }
 
 .input{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .operador{
     text-align: center;
+    color: white;
 }
 
 
 input{
     padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #895e41;
+    outline: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    color: #e3a378;
+}
+
+input::placeholder{
+    color: #c88e67;
 }
 
 button{
-
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 5px;
     margin-left: 667px;
     margin-right: 667px;
-
+    border-radius: 50px;
+    background-color: #895e41;
+    border: none;
+    color: #e3a378;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-.linea{
-    margin-top: 50px;
-    border-bottom: 2px solid black;
-    width: 300px;
-    margin-left: 610px;
+button:hover{
+
+    background-color: #65422b;
+    cursor: pointer;
+}
+
+.linea1{
+    margin-top: 40px;
+    border-top: 2px solid #c88e67;
+    width: 500px;
+    margin-left: 490px;
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 50px;
+}
+
+.linea2{
+    margin-top: 10px;
+    border-bottom: 2px solid #c88e67;
+    width: 500px;
+    margin-left: 490px;
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 50px;
 }
 
 .resultado{
-
-    background-color: gray;
-    color: rgb(255, 255, 255);
-    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    margin-left: 490px;
+    background-color: #c88e67;
+    color: #6e4e38;
+    width: 500px;   
     padding: 20px;
-    margin-top: 10px;
+    padding-bottom: 40px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
